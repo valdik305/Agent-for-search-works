@@ -1,0 +1,27 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Секреты (ключи API)
+.env
+
+# Базы данных и сессии
+*.db
+*.session
+*.session-journal
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Системный мусор (Mac)
+.DS_Store
+
+# IDE (PyCharm, WebStorm)
+.idea/
+.vscode/
+
+# Systemd service (если не нужен в репо)
+*.service
